@@ -1,6 +1,6 @@
 Name:    kde-artwork-active
 Summary: Additional artwork (themes, sound themes, icons,etc...) for  Plasma Active
-Version: 0.1
+Version: 0.2
 Release: 1
 Group:   Graphical desktop/KDE
 License: LGPLv2
