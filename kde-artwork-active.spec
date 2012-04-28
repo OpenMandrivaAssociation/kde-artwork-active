@@ -15,17 +15,18 @@ BuildArch: noarch
 Additional artwork (themes, sound themes, icons,etc...) for  Plasma Active
 
 %files
-%_kde_appsdir/ksplash/Themes/activeair
-%_kde_appsdir/kwin/lockscreen/main.qml
-%_kde_appsdir/kwin/lockscreen/unlock-normal.png
-%_kde_appsdir/kwin/lockscreen/unlock-pressed.png
-%_kde_appsdir/kwin/lockscreen/wallpaper.png
+%_kde_appsdir/ksplash/Themes/ActiveAir
+%_kde_appsdir/kscreenlocker/main.qml
+%_kde_appsdir/kscreenlocker/lockscreen-active.qml
+%_kde_appsdir/kscreenlocker/unlock-normal.png
+%_kde_appsdir/kscreenlocker/unlock-pressed.png
+%_kde_appsdir/kscreenlocker/wallpaper.png
 %_kde_datadir/wallpapers/*.*
 
 #----------------------------------------------------------------------
 
 %prep
-%setup -q 
+%setup -q -n %{name}
 %apply_patches
 
 %build
