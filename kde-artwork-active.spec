@@ -37,3 +37,14 @@ Additional artwork (themes, sound themes, icons,etc...) for  Plasma Active
 %install
 %makeinstall_std -C build
 
+
+
+%changelog
+* Sat Apr 28 2012 Crispin Boylan <crisb@mandriva.org> 0.2-1
++ Revision: 794328
+- New release
+
+* Thu Dec 01 2011 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.1-1
++ Revision: 737119
+- imported package kde-artwork-active
+
