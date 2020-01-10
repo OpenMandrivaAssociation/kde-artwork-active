@@ -27,7 +27,7 @@ Additional artwork (themes, sound themes, icons,etc...) for  Plasma Active
 
 %prep
 %setup -q -n %{name}
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake_kde4
