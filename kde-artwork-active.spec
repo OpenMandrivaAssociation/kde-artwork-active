@@ -4,7 +4,7 @@ Version: 0.2
 Release: 2
 Group:   Graphical desktop/KDE
 License: LGPLv2
-URL:     http://www.kde.org/
+URL:     https://www.kde.org/
 Source:  ftp://ftp.kde.org/pub/kde/stable/active/1.0/src/%{name}-%version.tar.bz2
 BuildRequires: kdelibs4-devel
 
