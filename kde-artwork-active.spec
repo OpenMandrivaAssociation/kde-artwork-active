@@ -6,6 +6,7 @@ Group:   Graphical desktop/KDE
 License: LGPLv2
 URL:     https://www.kde.org/
 Source:  ftp://ftp.kde.org/pub/kde/stable/active/1.0/src/%{name}-%version.tar.bz2
+BuildRequires:	make
 BuildRequires: kdelibs4-devel
 
 BuildArch: noarch
